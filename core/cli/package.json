@@ -19,5 +19,16 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "dependencies": {
+    "@imooc-zx-cli-dev/log": "file:../../utils/log",
+    "@imooc-zx-cli-dev/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
+    "minimist": "^1.2.5",
+    "npmlog": "^6.0.1",
+    "path-exists": "^5.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
   "gitHead": "548102daeb1164ca88bcc5d7cde5a6595191cef6"
 }
